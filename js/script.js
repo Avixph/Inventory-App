@@ -21,10 +21,10 @@ class Clothes extends LuluBoutique {
   }
 }
 
-class Snacks extends PetBoutique {
-  constructor(price, itemAmout) {
+class Snacks extends LuluBoutique {
+  constructor(price, itemAmount) {
     super(price);
-    this.itemAmount = itemAmout;
+    this.itemAmount = itemAmount;
   }
 }
 
@@ -39,6 +39,7 @@ console.log(fallSweaters);
 const artisanSnacks = new Snacks();
 artisanSnacks.price = 4.49;
 artisanSnacks.itemAmount = 62;
+artisanSnacks.item;
 artisanSnacks.Inventory("artisanSnacks");
 
 console.log(artisanSnacks);
